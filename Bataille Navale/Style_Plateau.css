@@ -1,0 +1,17 @@
+#plateau {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+.caseBataille, .caseEntete {
+    width:30px;
+    height:30px;
+    text-align:center;
+    vertical-align: center;
+    border: black solid 1px;
+    font-size: 150%;
+}
+
+.caseBataille:hover {
+    background-color: #438ab1;
+}
